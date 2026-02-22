@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  background-color: #593d3b;
+  color: #fff;
+  font-family: Bebas Neue;
+}
+
+.description,
+.ingredients,
+.directions,
+.steps,
+.additional-recipes {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #c3a995;
+  color: #000;
+}
+
+.description p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2,
+h3 {
+  font-family: Bebas Neue;
+  text-decoration: underline;
+}
+
+.ingredients ul,
+.steps ol {
+  margin-left: 1.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.additional-recipes a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.additional-recipes li {
+  list-style: none;
+}
+
+.additional-recipes a:hover {
+  background-color: #593d3b;
+  color: #fff;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #593d3b;
+}
+
+footer i {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
