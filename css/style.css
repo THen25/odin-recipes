@@ -26,9 +26,8 @@ h1 {
 }
 
 .recipe-container {
-  min-width: 50%;
+  width: 500px;
   margin: 20px 0;
-  /* padding: 1rem; */
   background-color: #593d3b;
 }
 
@@ -49,7 +48,6 @@ h1 {
 }
 
 footer {
-  /* margin-top: 40px; */
   padding: 20px;
   background-color: #593d3b;
   color: #fff;
@@ -57,3 +55,15 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* 
+@media only screen and (max-width: 600px) {
+  .intro {
+    width: 100%;
+  }
+  footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1 0.5rem;
+  }
+} */
